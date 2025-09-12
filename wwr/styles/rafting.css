@@ -58,6 +58,18 @@ h1 {
   background-color: var(--accent1-color);
   color: #fff;
 }
+
+article {
+  text-align: left;
+  background-color:#FFD9CE;
+  position: absolute;
+  top: 340px;
+  margin: auto;
+  right: 1rem;
+  left: 1rem;
+  bottom: 0.5rem;
+}
+
 .hero article img {
   float: right;
   width: 125px;
