@@ -121,7 +121,25 @@ article {
 }
 
 #history_img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.history-content {
   display: flex;
-  flex-direction: column;
-  width: 135px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.history-content p {
+  flex: 1;
+  max-width: 300px;
+}
+
+.adventure {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
 }
