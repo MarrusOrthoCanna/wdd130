@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  background: #fff;
+}
+
+header {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: rgb(34, 34, 34);
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+form {
+  width: 600px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid rgb(51, 51, 51 / 0.1);
+  border-radius: 20px;
+  background-color: rgb(65, 126, 150);
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 1em;
+  margin: 1em;
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+legend {
+  padding: 0.5em;
+  color: rgb(10, 34, 105);
+  font-size: 1.1em;
+}
+
+label {
+  text-align: right;
+  padding-right: 2em;
+
+}
+
+input, select, textarea {
+  padding: 1em;
+  font-size: 1em;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  width: 6rem;
+  height: auto;
+  margin: auto;
+  padding: 0.5rem;
+  background-color: rgb(192, 226, 236);
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: lightseagreen;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-top: 1px solid #333;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+  margin: 0.5rem 0;
+}
