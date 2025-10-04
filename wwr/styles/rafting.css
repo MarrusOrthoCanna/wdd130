@@ -143,3 +143,7 @@ article {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
 }
+
+.employees img {
+  width: 250px;
+}
