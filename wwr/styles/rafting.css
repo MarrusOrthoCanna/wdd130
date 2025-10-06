@@ -115,6 +115,15 @@ article {
   bottom: 0.5rem;
 }
 
+form {
+  width: auto;
+  display: grid;
+}
+
+input {
+  padding: .3rem;
+}
+
 .hero article img {
   float: right;
   width: 125px;
@@ -146,4 +155,63 @@ article {
 
 .employees img {
   width: 250px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+}
+
+.column1 {
+  grid-template-columns: 1fr 2fr;
+}
+
+.quiz-item {
+  display: grid;
+  align-items: center;
+}
+
+.column2 {
+  grid-template-columns: 100px 1fr;
+}
+
+.radio-options {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.radio-options label {
+  padding: 0.5rem;
+}
+
+.check {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+  justify-content: flex-end;
+}
+
+.heading h1 {
+  position: unset;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.contact1 p {
+  text-align: center;
+}
+
+.employees {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
