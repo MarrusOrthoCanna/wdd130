@@ -34,6 +34,10 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navigation {
     display: flex;
     list-style: none;
@@ -221,3 +225,53 @@ fieldset {
   text-align: center;
 }
 
+.index-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.calltoaction {
+  text-align: center;
+  margin: 3.5rem;
+}
+
+.newsletterform legend {
+  text-align: center;
+  font-size: large;
+  font-style: oblique;
+  padding: 1rem;
+}
+
+.newsletterform, .newsletterform fieldset {
+  width: auto;
+  display: grid;
+  align-content: center;
+}
+
+.formitem1 {
+  display: grid;
+  align-items: center;
+}
+
+.col1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 2rem;
+}
+
+.testimonial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+.testimonial figure {
+  text-align: center;
+  margin: 1rem;
+  font-style: italic;
+}
+
+.testimonial figcaption {
+  padding: 1rem;
+  margin: 1rem 1rem 0 0;
+}
