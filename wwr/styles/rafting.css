@@ -132,6 +132,26 @@ fieldset {
   border: none;
 }
 
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+th, td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
 
 .hero article img {
   float: right;
@@ -242,10 +262,15 @@ fieldset {
   padding: 1rem;
 }
 
+
 .newsletterform, .newsletterform fieldset {
   width: auto;
   display: grid;
   align-content: center;
+  background-color: rgb(65, 126, 150);
+  margin: 1rem;
+  border: 1px solid #333;
+  border-radius: 10px;
 }
 
 .formitem1 {
@@ -274,4 +299,29 @@ fieldset {
 .testimonial figcaption {
   padding: 1rem;
   margin: 1rem 1rem 0 0;
+}
+
+.trips-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.callaction {
+  text-align: center;
+  padding: 3rem;
+  border: 1px solid #aa9393;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.tripdescrip {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tripdescrip figure {
+  padding: 1rem;
+  background-color: #ddd;
+  border: .5px solid;
+  border-radius: 10px;
 }
